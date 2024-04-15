@@ -1,4 +1,4 @@
-#genemap_generator
+# genemap_generator
 
 Author: Murat Buyukyoruk
        
@@ -18,19 +18,19 @@ genemap_generator dependencies:
 
 Input Paramaters (REQUIRED):
 ----------------------------
-	-i/--input		FASTA			        Specify a fasta file used for generating phylogenetic tree and HMMER search. FASTA file requires headers starting with accession number. (i.e. >NZ_CP006019 [Prodigal Description])
+	-i/--input	FASTA			Specify a fasta file used for generating phylogenetic tree and HMMER search. FASTA file requires headers starting with accession number. (i.e. >NZ_CP006019 [Prodigal Description])
 
-	-o/--output		Output file	      Specify a output file name that should contain genemap info.
+	-o/--output	Output file		Specify a output file name that should contain genemap info.
 
-	-d/--data     HMMER domtblout		Specify a hmmsearch or hmmscan domtblout file to parse the positions of predicted hmm hits.
+	-d/--data	HMMER domtblout		Specify a hmmsearch or hmmscan domtblout file to parse the positions of predicted hmm hits.
 
 Parameters [optional]:
 ----------------------
 
-	-p/--position  genomic or ORF		Option to generate ORF-specific or genomic-based genemap positions. It is recommended to use "genomic" option if you are planning to perform Neighbourhood analysis.
+	-p/--position	genomic or ORF		Option to generate ORF-specific or genomic-based genemap positions. It is recommended to use "genomic" option if you are planning to perform Neighbourhood analysis.
 
-	-a/--anchor    no or auto		    Option to generate ORF-specific or genomic-based genemap positions. It is recommended to use "genomic" option if you are planning to perform Neighbourhood analysis.
+	-a/--anchor	no or auto		Option to generate ORF-specific or genomic-based genemap positions. It is recommended to use "genomic" option if you are planning to perform Neighbourhood analysis.
 
 Basic Options:
 --------------
-	-h/--help		HELP			          Shows this help text and exits the run.
+	-h/--help	HELP			Shows this help text and exits the run.
