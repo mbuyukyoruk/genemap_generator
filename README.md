@@ -15,8 +15,12 @@ Syntax:
     genemap_generator.py -i demo_aligned.fasta -o demo_out.txt -d demo_hmmsearch_domtblout.txt -p genomic -a auto
 
 genemap_generator dependencies:
-	tqdm                            refer to https://pypi.org/project/tqdm/
-	trimal                          refer to http://trimal.cgenomics.org/downloads
+
+Bio module and SeqIO available in this package          refer to https://biopython.org/wiki/Download
+
+tqdm                            			refer to https://pypi.org/project/tqdm/
+
+trimal                          			refer to http://trimal.cgenomics.org/downloads
 
 Input Paramaters (REQUIRED):
 ----------------------------
