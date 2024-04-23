@@ -4,7 +4,7 @@ Author: Murat Buyukyoruk
        
     genemap_generator help:
 
-This script is developed to generate a dataframe that can be used to create alignment panel with phylogenetic trees (i.e., to use with Pylo2genemap.py script).
+This script is developed to generate a dataframe that can be used to create alignment panel with phylogenetic trees (i.e., to use with [Pylo2genemap.py](https://github.com/mbuyukyoruk/Phylo_2_genemap) script).
 
 tqdm is required to provide a progress bar.
 
